@@ -12,6 +12,7 @@ public class ParentM {
         p.smile();
         p.talk();
         p.walk();
+        p.setParentsName();
         System.out.println();
 
         System.out.println();
@@ -20,6 +21,7 @@ public class ParentM {
         p2.talk();
         p2.smile();
         System.out.println();
+        p2.setParentsName();
 
         System.out.println("Child One Behaviours...");
         ChildOne c = new ChildOne();

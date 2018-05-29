@@ -17,6 +17,10 @@ public class Child2 implements Parent {
         System.out.println("Smile in Child2...");
     }
 
+    public void setParentsName() {
+        System.out.println("Parents Name:"+parentsName);
+    }
+
     public void think(){
         System.out.println("Think in Child2...");
     }
