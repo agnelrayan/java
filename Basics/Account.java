@@ -64,14 +64,16 @@ public class Account {
             obj[i] = new Account();
             obj[i].getData();
             obj[i].display();
-            obj[i].checkBalance();
+           obj[i].checkBalance();
             obj[i].deposit(4000);
-            obj[i].checkBalance();
+           obj[i].checkBalance();
             obj[i].withdraw(1000);
             obj[i].checkBalance();
             obj[i].transfer(1000);
             obj[i].checkBalance();
         }
+
+
 
        // obj.insert(1,"Ag",1000);
         /*for(i=0;i<2;i++)

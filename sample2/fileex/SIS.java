@@ -15,7 +15,7 @@ public class SIS {
         FileOutputStream fout = new FileOutputStream("ag3.txt");
         int i=0;
         while((i=sin.read())!=-1){
-            //System.out.print((char)i);
+            System.out.print((char)i);
             fout.write((char)i);
         }
     }
